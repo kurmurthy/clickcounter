@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel = "stylesheet" href = "counter.css">
+        <script src = "counter.js"></script>
+    </head>
+    <body>
+        <div class = text-center>
+            <img src = "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/sum-of-two-numbers-img.png" 
+            class="image" />
+            <div class = "bg-container">
+                <input class = "input-number" type = "text" id = "firstNumber">
+                <span class = "operator">+</span>
+                <input class = "input-number" type = "text" id = "secondNumber">
+                <span class = "operator">=</span>
+                <input class = "user-input" type = "text" id = "userInput">
+                <div class = "mt-4 mb-4">
+                    <button class = "btn btn-primary" id = "checkButton"
+                    onClick = "checkResult()">Check</button>
+                    <button class = "btn btn-primary" id = "restartButton" 
+                    onClick = "restartGame()">Restart</button>
+                </div>
+                <p class = "game-result" id = "gameResult"></p>
+            </div>
+        </div>
+    </body>
+</html>
